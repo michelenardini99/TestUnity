@@ -21,6 +21,7 @@ public class Spawner : MonoBehaviour
         if (Input.GetMouseButtonUp(0))
         {
             Instantiate(cubePrefab, new Vector3(Random.Range(-5, 5),Random.Range(-5,5),1),cubePrefab.transform.rotation);
+            bella
         }
     }
 }
